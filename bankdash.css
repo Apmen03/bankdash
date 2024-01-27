@@ -136,3 +136,9 @@
 .sidebar__list--padding{
     padding: 0 31px;
 }
+
+/* || main article*/
+
+.important{
+    flex-wrap: wrap;
+}

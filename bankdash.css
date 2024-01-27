@@ -18,15 +18,13 @@
 }
 
 .header__union{
-    gap: 70px;
     flex: 1 1360px;
-    padding: 20px 40px;
 }
 
 .header__logo{
     gap: 10px;
     flex: 1 184px;
-    padding: 10px 0;
+    padding: 40px 20px;
 }
 
 .text-style{
@@ -44,6 +42,8 @@
 .header__nav{
     flex:  1 1110px;
     gap: 470px;
+    padding: 40px 20px;
+    border: 2px solid #E6EFF5;
 }
 
 .header__nav > p{
@@ -52,14 +52,13 @@
 
 .header__navunion{
     gap: 30px;
-    flex: 1 560px;
 }
 
 .header__search{
     border: 2px solid #F5F7FA;
     border-radius: 40px;
     gap: 5px;
-    padding: 15px 25px;
+    padding: 10px 15px;
     background-color: #F5F7FA;
 }
 
@@ -79,12 +78,14 @@
 
 .header__icon{
     border-radius: 50%;
-    background-color: F5F7FA;
+    background-color: #F5F7FA;
     padding: 12px 13px;
 }
 
 .header__profile{
-    width: 60px;
-    height: 60px;
     padding: 0;
+}
+
+.header__profile >img{
+    border-radius: 50%;
 }

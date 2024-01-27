@@ -18,13 +18,14 @@
 }
 
 .header__union{
-    flex: 1 1360px;
+    gap: 70px;
 }
 
 .header__logo{
     gap: 10px;
     flex: 1 184px;
-    padding: 40px 20px;
+    padding: 20px 40px;
+    border-right: 2px solid #E6EFF5;
 }
 
 .text-style{
@@ -42,8 +43,6 @@
 .header__nav{
     flex:  1 1110px;
     gap: 470px;
-    padding: 40px 20px;
-    border: 2px solid #E6EFF5;
 }
 
 .header__nav > p{

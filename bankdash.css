@@ -23,7 +23,6 @@
 
 .header__logo{
     gap: 10px;
-    flex: 1 184px;
     padding: 20px 40px;
     border-right: 2px solid #E6EFF5;
 }

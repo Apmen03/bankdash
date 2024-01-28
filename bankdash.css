@@ -142,6 +142,7 @@
 .important{
     background: #F5F7FA;
     padding: 25px 40px;
+    gap: 30px;
 }
 
 .important__cards{
@@ -247,4 +248,67 @@
 
 .important__cardnumber--white > p{
     color: #343C6A;
+}
+
+.important__transaction{
+    gap: 20px;
+    flex: 1 350px;
+}
+
+.important__transaction--main{
+    color: #343C6A;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.important__transaction--box{
+    border-radius: 25px;
+    background: #FFF;
+    padding: 25px;
+    gap: 17px;
+}
+
+.important__transactionbox{
+    gap: 10px;
+}
+
+.important__transactionbox--icon{
+    padding: 13px 13px 14px 14px;
+    background-color: #FFF5D9;   
+    border-radius: 50%; 
+}
+
+.important__transactionbox > p{
+    color: #FF4B4A;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.important__transactionbox--text{
+    color: #232323;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.important__transactionbox--textother{
+    color: #718EBF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.important__transactionbox--green{
+    color: #41D4A8;
 }

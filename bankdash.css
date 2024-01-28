@@ -108,13 +108,12 @@
 
 .aside{
     justify-content: flex-start;
-    flex-basis: 252px;
+    flex-basis: 250px;
 }
 
 .sidebar{
-    flex-basis: 252px;
+    flex-basis: 250px;
     justify-content: flex-start;
-    border-right: 2px solid #E6EFF5;;
 }
 
 .sidebar__list{
@@ -148,7 +147,9 @@
 /* || main article*/
 
 .article{
-    flex-basis: 1188px;
+    flex-basis: 1190px;
+    border-left: 2px solid #E6EFF5;
+    border-top: 2px solid #E6EFF5;
 }
 
 .important{

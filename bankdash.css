@@ -3,17 +3,19 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    flex-shrink: 1;
 }
 
 .flex-row-center{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
 }
 
 .flex-column{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: flex-start;
 }
 
@@ -34,7 +36,7 @@
 /* || header nav */
 
 .header{
-    flex: 1 1440px;
+    flex-basis: 1440px;
 }
 
 .header__union{
@@ -53,7 +55,6 @@
 }
 
 .header__nav{
-    flex:  1 1110px;
     gap: 470px;
 }
 
@@ -105,8 +106,9 @@
 /* || main sidebar */
 
 .sidebar{
-    flex: 1 1184px;
+    flex-basis: 250px;
     justify-content: flex-start;
+    padding: 38px;
 }
 
 .sidebar__list{
@@ -143,12 +145,11 @@
     background: #F5F7FA;
     padding: 25px 40px;
     gap: 30px;
+    flex-basis: 1190px;
 }
 
 .important__cards{
-    gap: 20px;
-    flex: 1 730px;
-}
+    gap: 20px;}
 
 .important__text{
     gap: 565px;
@@ -252,7 +253,6 @@
 
 .important__transaction{
     gap: 20px;
-    flex: 1 350px;
 }
 
 .important__transaction--main{

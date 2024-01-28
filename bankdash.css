@@ -101,11 +101,20 @@
 }
 
 /* || main sidebar */
+.main{
+    justify-content: space-between;
+    flex-basis: 1440px;
+}
+
+.aside{
+    justify-content: flex-start;
+    flex-basis: 252px;
+}
 
 .sidebar{
-    flex-basis: 250px;
+    flex-basis: 252px;
     justify-content: flex-start;
-    padding: 38px;
+    border-right: 2px solid #E6EFF5;;
 }
 
 .sidebar__list{
@@ -137,6 +146,10 @@
 }
 
 /* || main article*/
+
+.article{
+    flex-basis: 1188px;
+}
 
 .important{
     background: #F5F7FA;

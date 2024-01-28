@@ -140,5 +140,111 @@
 /* || main article*/
 
 .important{
-    flex-wrap: wrap;
+    background: #F5F7FA;
+    padding: 25px 40px;
+}
+
+.important__cards{
+    gap: 20px;
+    flex: 1 730px;
+}
+
+.important__text{
+    gap: 565px;
+}
+
+.important__text--main{
+    color: #343C6A;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.important__text--other{
+    color: #343C6A;
+    text-align: right;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.important__card{
+    gap: 30px;
+}
+
+.important__bothcard{
+    padding: 25px;
+    border-radius: 25px;
+    background: linear-gradient(107deg, #4C49ED 2.61%, #0A06F4 101.2%);
+    gap: 35px;
+}
+
+.important__bothcard--head{
+    gap: 200px;
+}
+
+.important__balance > p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.important__balance--big{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.important__cardtext{
+    gap: 65px;
+}
+
+.important__cardtext--union{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.important__cardtext--main{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.important__cardnumber{
+    gap: 60px;
+}
+
+.important__cardnumber > p{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.important__bothcard--white{
+    border: 1px solid #DFEAF2;
+    background: #FFF;
+}
+
+.important__balance--white > p{
+    color: #718EBF;
+}
+
+.important__balance--white > .important__balance--big{
+    color: #343C6A;
+}
+
+.important__cardtext--white > p{
+    color: #718EBF;
+}
+
+.important__cardtext--white > .important__cardtext--main{
+    color: #343C6A;
+}
+
+.important__cardnumber--white > p{
+    color: #343C6A;
 }

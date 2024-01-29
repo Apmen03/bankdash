@@ -44,8 +44,11 @@
 }
 
 .header__logo{
-    gap: 10px;
     flex-basis: 250px;
+}
+
+.header__logo > img{
+    margin-right: 10px;
 }
 
 .header__logo > h1{
@@ -101,8 +104,8 @@
 }
 
 /* || main sidebar */
+
 .main{
-    justify-content: space-between;
     flex-basis: 1440px;
 }
 
@@ -116,8 +119,8 @@
     justify-content: flex-start;
 }
 
-.sidebar__list{
-    gap: 25px;
+.sidebar__list > div,img,h2{
+    margin-right: 25px;
 }
 
 .sidebar__list > h2{
@@ -150,176 +153,4 @@
     flex-basis: 1190px;
     border-left: 2px solid #E6EFF5;
     border-top: 2px solid #E6EFF5;
-}
-
-.important{
-    background: #F5F7FA;
-    padding: 25px 40px;
-    gap: 30px;
-    flex-basis: 1190px;
-}
-
-.important__cards{
-    gap: 20px;}
-
-.important__text{
-    gap: 565px;
-}
-
-.important__text--main{
-    color: #343C6A;
-    font-size: 22px;
-    font-weight: 600;
-}
-
-.important__text--other{
-    color: #343C6A;
-    text-align: right;
-    font-size: 17px;
-    font-weight: 600;
-}
-
-.important__card{
-    gap: 30px;
-}
-
-.important__bothcard{
-    padding: 25px;
-    border-radius: 25px;
-    background: linear-gradient(107deg, #4C49ED 2.61%, #0A06F4 101.2%);
-    gap: 35px;
-}
-
-.important__bothcard--head{
-    gap: 200px;
-}
-
-.important__balance > p{
-    color: #FFF;
-    font-family: Lato;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.important__balance--big{
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.important__cardtext{
-    gap: 65px;
-}
-
-.important__cardtext--union{
-    color: rgba(255, 255, 255, 0.70);
-    font-family: Lato;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.important__cardtext--main{
-    color: #FFF;
-    font-size: 15px;
-    font-weight: 600;
-}
-
-.important__cardnumber{
-    gap: 60px;
-}
-
-.important__cardnumber > p{
-    color: #FFF;
-    font-size: 22px;
-    font-weight: 600;
-}
-
-.important__bothcard--white{
-    border: 1px solid #DFEAF2;
-    background: #FFF;
-}
-
-.important__balance--white > p{
-    color: #718EBF;
-}
-
-.important__balance--white > .important__balance--big{
-    color: #343C6A;
-}
-
-.important__cardtext--white > p{
-    color: #718EBF;
-}
-
-.important__cardtext--white > .important__cardtext--main{
-    color: #343C6A;
-}
-
-.important__cardnumber--white > p{
-    color: #343C6A;
-}
-
-.important__transaction{
-    gap: 20px;
-}
-
-.important__transaction--main{
-    color: #343C6A;
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.important__transaction--box{
-    border-radius: 25px;
-    background: #FFF;
-    padding: 25px;
-    gap: 17px;
-}
-
-.important__transactionbox{
-    gap: 10px;
-}
-
-.important__transactionbox--icon{
-    padding: 13px 13px 14px 14px;
-    background-color: #FFF5D9;   
-    border-radius: 50%; 
-}
-
-.important__transactionbox > p{
-    color: #FF4B4A;
-    text-align: right;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.important__transactionbox--text{
-    color: #232323;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.important__transactionbox--textother{
-    color: #718EBF;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.important__transactionbox--green{
-    color: #41D4A8;
 }

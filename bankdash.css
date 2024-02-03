@@ -119,7 +119,7 @@
     justify-content: flex-start;
 }
 
-.sidebar__list > div,img,h2{
+.sidebar__list > div ,.sidebar__list > img{
     margin-right: 25px;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .sidebar__list--padding{
-    padding: 0 31px;
+    padding-left: 31px;
 }
 
 /* || main article*/

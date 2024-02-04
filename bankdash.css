@@ -28,7 +28,7 @@
 
 .main-text-style{
     color: #B1B1B1;
-    font-family: Inter;
+    /*font-family: Inter;*/
     font-style: normal;
     line-height: normal;
 }
@@ -45,10 +45,7 @@
 
 .header__logo{
     flex-basis: 250px;
-}
-
-.header__logo > img{
-    margin-right: 10px;
+    justify-content: space-evenly;
 }
 
 .header__logo > h1{
@@ -69,8 +66,9 @@
     font-size: 28px;
 }
 
-.header__nav--padding{
-    margin-right: 30px;
+.header__navunion{
+    flex-basis: 500px;
+    justify-content: space-between;
 }
 
 .header__search{

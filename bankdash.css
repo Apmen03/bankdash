@@ -153,4 +153,81 @@
     flex-basis: 1190px;
     border-left: 2px solid #E6EFF5;
     border-top: 2px solid #E6EFF5;
+    background-color: #F5F7FA;
+}
+
+.cardandtransaction__cards{
+    flex-basis: 730px;
+}
+
+.cardandtransaction__head{
+    padding: 24px 24px 35px 26px;
+    justify-content: space-between;
+}
+
+.cardandtransaction__head > p{
+    color: #343C6A;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cardandtransaction__head--text{
+    text-align: right;
+    font-size: 17px;
+}
+
+.cardandtransaction__card{
+    background: linear-gradient(107deg, #4C49ED 2.61%, #0A06F4 101.2%);
+    border-radius: 25px;
+}
+
+.cardandtransaction__card--head{
+}
+
+.cardandtransaction__union{
+
+}
+
+.cardandtransaction__union--text{
+
+}
+
+.cardandtransaction__union--text > p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#blar{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cardandtransaction__card--body{
+    padding: 26px 20px;
+    border-radius: 0px 0px 25px 25px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.cardandtransaction__card--body > p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.beqa{
+flex-basis: 350px;    
+}
+
+.beqa1{
+    flex-basis: 350px;
 }
